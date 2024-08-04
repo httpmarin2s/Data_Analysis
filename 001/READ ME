@@ -1,0 +1,58 @@
+# Projeto de Análise de Dados de Vendas
+
+Este projeto tem como objetivo a análise de dados de vendas de uma rede de lojas. O objetivo principal é obter insights valiosos que possam ajudar na tomada de decisões estratégicas para melhorar o desempenho de vendas.
+
+## Estrutura do Projeto
+
+1. **Introdução**
+   - Objetivo do projeto
+   - Descrição dos dados
+
+2. **Primeiros Passos**
+   - Instalação de bibliotecas
+   - Importação e visualização dos dados
+
+3. **Análises Realizadas**
+   - Faturamento Total
+   - Faturamento Total por Loja
+   - Rendimento por Produto
+   - Desempenho das Lojas
+     - Maior e Menor Faturamento
+   - Quantidade de Produtos Vendidos por Loja
+   - Sazonalidade nas Vendas
+   - Popularidade dos Produtos
+     - Produtos Mais Vendidos no Total
+   - Tendências de Vendas
+     - Quantidade Diária de Produtos Vendidos
+
+4. **Insights e Propostas de Melhorias**
+   - Lojas de Baixo Rendimento
+   - Intensificação do Abastecimento
+   - Produtos de Maior Demanda
+
+## Introdução
+
+### Objetivo do Projeto
+
+O objetivo deste projeto é analisar um conjunto de dados de vendas de uma rede de lojas para identificar padrões e tendências que possam auxiliar na tomada de decisões estratégicas. A análise focará em aspectos como faturamento total, desempenho por loja, popularidade dos produtos e sazonalidade das vendas.
+
+### Descrição dos Dados
+
+Os dados utilizados neste projeto incluem informações sobre vendas de diferentes lojas, contendo as seguintes colunas:
+- **Data:** Data da venda
+- **ID Loja:** Identificação da loja
+- **Produto:** Nome do produto
+- **Quantidade:** Quantidade vendida
+- **Valor Unitário:** Preço unitário do produto
+- **Valor Final:** Valor total da venda
+
+## Primeiros Passos
+
+### Instalação de Bibliotecas
+
+Certifique-se de ter as seguintes bibliotecas instaladas para executar a análise:
+
+```bash
+pip install pandas
+pip install numpy
+pip install matplotlib
